@@ -256,3 +256,72 @@ text-align: center;
 color: #FFFFFF;
 
 }
+
+#Quotes {
+    position: absolute;
+    width: 1440px;
+    height: 392px;
+    left: -1px;
+    top: 1093px;
+    display: flex;
+    background: #C271FF;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#Quotes img{
+    width: 154px;
+    height: 161px;
+    margin-left: 10%;
+    border-radius: 50%;
+}
+
+#Quotes #author{
+
+left: 0%;
+margin-right: 10%;
+top: 0%;
+bottom: 56.96%;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+/* or 153% */
+
+
+color: #FFFFFF;
+}
+
+#Quotes #subtitle{
+    height: 34px;
+left: 0%;
+right: 82.33%;
+top: calc(50% - 34px/2 + 28px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 34px;
+/* identical to box height, or 153% */
+
+
+color: #FFFFFF;
+}
+
+#Quotes #clima{
+    height: 34px;
+
+font-family: 'Source Sans Pro';
+font-style: italic;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+/* identical to box height, or 153% */
+
+
+color: #FFFFFF;
+}
