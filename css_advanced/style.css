@@ -2,73 +2,257 @@
     font-family: 'Source Sans Pro';
     src: url('images/source-sans-pro/SourceSansPro-Bold.otf');
 }
-body {
-    background-image: url("images/background.png");
+
+body{
+    background-image: url('./images/background.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    width: 1440px;
+    height: 3718px;
 }
+
+body a{
+    text-decoration: none;
+}
+
 
 header{
-    border-color: rgb(10, 60, 43);
-    flex-direction: row;
+    width: 1103 px;
+    height: 29.46px;
     display: flex;
     justify-content: space-around;
-    height: 29.46px;
-    margin-top: 40px;
+    margin-top: 101px;
 }
 
-#menus {
-    display: flex;
-    width: 234px;
-    justify-content: space-between;
-}
-#menus a{
-
-    color: white;
+#menu {
+    justify-content: space-around;
+    color: #FFFFFF;
 }
 
-#titulo {
-    margin-top: 170px;
-    display: flex;
-    justify-content: center;
-    color: white;
+#courses {
+    position: absolute;
+height: 15px;
+left: 57%;
+right: 28.63%;
+top: calc(11.3% - 15px/2);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+#pricing {
+    position: absolute;
+    height: 15px;
+    left: 63.59%;
+    right: 28.63%;
+    top: calc(11.3% - 15px/2);
+
     font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #FFFFFF;
 }
 
-#schooled {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    align-items: center;
+#login {
+    position: absolute;
+height: 15px;
+left: 70.47%;
+right: 0%;
+top: calc(11.3% - 15px/2);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
 }
+
+
+
+
+body img{
+    width: 1440.15;
+    height: 1093;
+}
+
+#titulo{
+    justify-content: center;
+    display: flex;
+}
+
 
 #schooled h1{
-    font-size: 140px;
-    font-weight: bold;
+    font-family:'Source Sans Pro';
+    font-size: 120px;
+    color: #FFFFFF;
 }
 
-#palabras {
-    word-spacing: 45px;
-    font-size: 25px;
-    vertical-align: top;
-    font-weight: bold;
+#palabras{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#smiles{
+    position: absolute;
+height: 20px;
+left: 23.00%;
+right: 55.21%;
+top: calc(50% - 20px/2 - 89.8px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-size: 16px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#grin {
+    position: absolute;
+height: 20px;
+left: 28.5%;
+right: 48.61%;
+top: calc(50% - 20px/2 - 89.8px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#laugh {
+    position: absolute;
+height: 20px;
+left: 31.35%;
+right: 41.25%;
+top: calc(50% - 20px/2 - 89.8px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#schooled button{
+position: absolute;
+left: 34.38%;
+right: 54.38%;
+top: 45.33%;
+bottom: 50.64%;
+
+filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+background-color: #C271FF;
+border-radius: 20px;
+color: #FFFFFF;
+}
+
+#learn {
+    position: absolute;
+    height: 40px;
+    left: 20%;
+    right: 39.93%;
+    top: calc(50% - 40px/2 + 104.5px);
+
     font-family: 'Source Sans Pro';
-    margin-top: -100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
-#boton-registro{
-    margin-top: 40px;
-    background-color: #C271FF;
-    color: white;
-    width: 162px;
-    height: 44px;
-    top: 419px;
-    left: 639px;
-    left: 44.38%;
-    right: 44.38%;
-    top: 38.33%;
-    bottom: 57.64%;
-    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
-    border-radius: 20px;
+#palabralearn {
+    color: #C271FF
 }
 
+#pros {
+    display: flex;
+    position: absolute;
+    width: 1009px;
+    height: 237px;
+    left: 217px;
+    top: 758px;
+    justify-content: space-around;
+}
+
+#pros img{
+    border-radius: 50%;
+    bottom: 36.71%;
+}
+
+#pros #phillip{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#pros #nannie{
+    
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#pros #bruce{
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#pros #henry{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#pros p{
+
+height: 48px;
+font-family: 'Source Sans Pro';
+font-style: italic;;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+
+}
