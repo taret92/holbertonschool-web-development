@@ -105,9 +105,9 @@ body img{
 #smiles{
     position: absolute;
 height: 20px;
-left: 23.00%;
+left: 47.35%;
 right: 55.21%;
-top: calc(50% - 20px/2 - 89.8px);
+top: calc(38% - 20px/2 - 89.8px);
 
 font-family: 'Source Sans Pro';
 font-style: normal;
@@ -120,9 +120,9 @@ color: #FFFFFF;
 #grin {
     position: absolute;
 height: 20px;
-left: 28.5%;
+left: 57%;
 right: 48.61%;
-top: calc(50% - 20px/2 - 89.8px);
+top: calc(38% - 20px/2 - 89.8px);
 
 font-family: 'Source Sans Pro';
 font-style: normal;
@@ -136,9 +136,9 @@ color: #FFFFFF;
 #laugh {
     position: absolute;
 height: 20px;
-left: 31.35%;
+left: 64.35%;
 right: 41.25%;
-top: calc(50% - 20px/2 - 89.8px);
+top: calc(38% - 20px/2 - 89.8px);
 
 font-family: 'Source Sans Pro';
 font-style: normal;
@@ -152,10 +152,10 @@ color: #FFFFFF;
 
 #schooled button{
 position: absolute;
-left: 34.38%;
-right: 54.38%;
-top: 45.33%;
-bottom: 50.64%;
+left: 50.38%;
+right: 35%;
+top: 35.33%;
+bottom: 60.64%;
 
 filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
 background-color: #C271FF;
@@ -166,9 +166,9 @@ color: #FFFFFF;
 #learn {
     position: absolute;
     height: 40px;
-    left: 20%;
-    right: 39.93%;
-    top: calc(50% - 40px/2 + 104.5px);
+    left: 35%;
+    right: 20%;
+    top: calc(42% - 40px/2 + 104.5px);
 
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -745,4 +745,68 @@ text-align: right;
 
 color: #C271FF;
 
+}
+
+#membership{
+
+position: absolute;
+width: 1440px;
+height: 502px;
+left: 0px;
+top: 2109px;
+
+background: #071629;
+}
+
+#membership h1{
+    position: absolute;
+height: 40px;
+left: 20.85%;
+right: 20.9%;
+top: calc(50% - 40px/2 - 161px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+color:white;
+
+}
+
+#membership #free{
+    color: #C271FF;
+}
+
+#smile1{
+    position: absolute;
+width: 43.67px;
+height: 35.35px;
+left: 256.71px;
+top: 220px;
+}
+
+#smile2{
+    position: absolute;
+width: 43.67px;
+height: 35.35px;
+left: 556.71px;
+top: 220px;
+}
+
+#smile3{
+    position: absolute;
+width: 43.67px;
+height: 35.35px;
+left: 846.71px;
+top: 220px;
+}
+
+#smile4{
+    position: absolute;
+width: 43.67px;
+height: 35.35px;
+left: 1156.71px;
+top: 220px;
 }
