@@ -1036,3 +1036,54 @@ top: 65.77%;
 bottom: 0%;
 
 }
+
+footer{
+    position: absolute;
+width: 1440px;
+height: 249px;
+left: 0px;
+top: 3469px;
+position: absolute;
+background: #071629;
+}
+
+#logofooter {
+    position: absolute;
+left: 11.46%;
+right: 76.81%;
+top: 38.15%;
+bottom: 49.8%;
+
+}
+
+#social{
+    display: flex;
+    position: absolute;
+width: 130px;
+height: 30px;
+left: 1070px;
+top: 90px;
+justify-content: space-between;
+}
+
+#smileschool{
+    position: absolute;
+height: 15px;
+left: -300.67%;
+right: 50%;
+top: calc(50% - 15px/2 + 78px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.35;
+}
+
