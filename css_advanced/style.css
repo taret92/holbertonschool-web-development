@@ -976,3 +976,63 @@ text-align: center;
 
 color: #FFFFFF;
 }
+
+.block {
+    position: absolute;
+width: 920px;
+height: 707px;
+left: 249px;
+top: 2678px;
+}
+
+.block h1{
+    position: absolute;
+height: 75px;
+left: 44.24%;
+right: 40.98%;
+top: calc(50% - 75px/2 - 316px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: 75px;
+text-align: center;
+
+color: #071629;
+}
+
+#faq1 {
+    position: absolute;
+left: 0%;
+right: 61.96%;
+top: 21.07%;
+bottom: 44.7%;
+
+}
+
+#faq2 {
+    position: absolute;
+left: 61.96%;
+right: 0%;
+top: 21.07%;
+bottom: 44.7%;
+}
+
+#faq3 {
+    position: absolute;
+left: 0%;
+right: 61.96%;
+top: 65.77%;
+bottom: 0%;
+
+}
+
+#faq4 {
+    position: absolute;
+left: 61.96%;
+right: 0%;
+top: 65.77%;
+bottom: 0%;
+
+}
