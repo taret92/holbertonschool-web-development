@@ -810,3 +810,169 @@ height: 35.35px;
 left: 1156.71px;
 top: 220px;
 }
+
+#h2smile1 {
+    position: absolute;
+height: 26px;
+left: 0.19%;
+right: 61%;
+top: calc(58% - 26px/2 - 1.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#h2smile2 {
+    position: absolute;
+height: 26px;
+left: 0.19%;
+right: 20%;
+top: calc(58% - 26px/2 - 1.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+#h2smile3 {
+    position: absolute;
+height: 26px;
+left: 21%;
+right: 0%;
+top: calc(58% - 26px/2 - 1.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#h2smile4 {
+    position: absolute;
+height: 26px;
+left: 64%;
+right: 0%;
+top: calc(58% - 26px/2 - 1.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#register{
+    position: absolute;
+left: 44.38%;
+right: 44.38%;
+top: 85.88%;
+bottom: 5.36%;
+
+filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+background: #C271FF;
+border-radius: 22px;
+color: white;
+}
+
+#psmile1{
+    position: absolute;
+height: 52px;
+left: 12%;
+right: 72%;
+top: calc(60% - 52px/2 + 50.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#psmile2{
+    position: absolute;
+height: 52px;
+left: 33%;
+right: 52%;
+top: calc(60% - 52px/2 + 50.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#psmile3{
+    position: absolute;
+height: 52px;
+left: 54%;
+right: 32%;
+top: calc(60% - 52px/2 + 50.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#psmile4{
+    position: absolute;
+height: 52px;
+left: 75%;
+right: 10%;
+top: calc(60% - 52px/2 + 50.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
